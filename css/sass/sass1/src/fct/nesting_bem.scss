@@ -1,0 +1,14 @@
+/* combination of nesting with BEM */
+.bem-elt {
+    padding: 10px;
+    background-color: red;
+    &--disabled {
+        background-color: grey;
+    }
+    &--bordered {
+        border: 2.5px solid darkred;
+        &.bem-elt--disabled {
+            border: 2.5px solid grey;  
+        }
+    }
+}

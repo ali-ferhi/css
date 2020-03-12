@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Sass</title>
+        <link rel="stylesheet" href="../../target/fct/page.css"/>
+    </head>
+    <body>
+
+        <!-- nesting with BEM -->
+        <div class="cpt">
+            <div class="cpt__header">
+                <span>nesting with BEM</span>
+            </div>
+            <div class="cpt__body">
+                <div class="bem-elt bem-elt--disabled">disabled element</div>
+                <div class="m_hbar"></div>
+                <div class="bem-elt bem-elt--bordered bem-elt--disabled">bordered and disabled element</div>
+            </div>
+        </div>
+
+        <div class="l_hbar"></div>
+
+        <!-- mixin -->
+        <div class="cpt">
+            <div class="cpt__header">
+                <span>minix</span>
+            </div>
+            <div class="cpt__body">
+                <div class="mixin-container">
+                    <div>container</div>
+                    <div class="mixin-element">element</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

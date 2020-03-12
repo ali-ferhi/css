@@ -1,0 +1,11 @@
+{
+  "name": "sass1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fct": "sass --watch ./src/fct/page.scss:./target/fct/page.css --style expanded"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+/* mixin */
+/** def **/
+@mixin block($textColor: black, $backColor: white, $padding: 10px) {
+    color: $textColor;
+    background-color: $backColor;
+    padding: $padding;
+}
+
+/** use **/
+.mixin-container {
+    @include block;
+}
+.mixin-element {
+    @include block(white, red, 5px);
+}
+
+/* function */
+//@function

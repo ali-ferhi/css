@@ -1,0 +1,23 @@
+@import "./nesting_bem.scss"
+        //,"./mixin.scss"
+        ;
+/* main */
+.cpt {
+    &__header {
+        height: 2.5vh;
+        padding: 10px;
+        background-color: blue;
+    }
+    &__body {
+        height: 22.5vh;
+        padding: 10px;
+        background-color: lightblue;
+    }
+}
+
+.l_hbar {
+    height: 2vh;
+}
+.m_hbar {
+    height: 1vh;
+}
